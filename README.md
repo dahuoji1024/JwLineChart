@@ -3,10 +3,10 @@ Android原生折线图
 本来想用MPAndroidChart, 那个库确实很强大, 但很可惜对我们项目不适用, 因为它的Y轴我始终没有找到比较好的更新方法, 而且动画效果也是差强人意, 所以才有了下面的东西, 现在是初版, 好多属性没提供出来, 如果有伙伴支持后期会持续完善...
 
 运行效果图如下
-![运行效果图](https://github.com/dahuoji1024/JwLineChart/tree/master/ScreenShots/show.jpg)
+![运行效果图](https://github.com/dahuoji1024/JwLineChart/raw/master/ScreenShots/show.jpg)
 
 项目结构
-![项目结构图](https://github.com/dahuoji1024/JwLineChart/tree/master/ScreenShots/structure_linechart.png)
+![项目结构图](https://github.com/dahuoji1024/JwLineChart/raw/master/ScreenShots/structure_linechart.png)
 
 使用方法:
 //获取xml中的View
