@@ -7,6 +7,7 @@ Android原生折线图
 
 项目结构
 ![项目结构图](https://github.com/dahuoji1024/JwLineChart/raw/master/ScreenShots/structure_linechart.png)
+LineChartRightHalf监听的是滑动事件, 里面包含的是LineChartBack(绘制的是背景网格线和X轴的文字) 和 LineChartData(绘制折线和折线填充)
 
 使用方法:
 //获取xml中的View
