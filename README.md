@@ -14,13 +14,16 @@ LineChartRightHalf监听的是滑动事件, 里面包含的是LineChartBack(绘�
 lineChart = findViewById(R.id.lineChart);
 
 LineChartConfig lineChartConfig = new LineChartConfig();
+
 lineChartConfig.setContentHeight(800); //高度
 lineChartConfig.setContentWidth(2000); //X轴的宽度
+
 //设置边界(除Y轴以外的右侧可滑动部分), 类似padding
 lineChartConfig.setOffsetBottom(70);
 lineChartConfig.setOffsetTop(40);
 lineChartConfig.setOffsetLeft(0);
 lineChartConfig.setOffsetRight(0);
+
 //开始绘制
 lineChart.setLineChartConfig(lineChartConfig);
 
